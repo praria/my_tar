@@ -19,7 +19,8 @@ It creates, lists, extracts, updates, and appends `.tar` archives using low-leve
 ./make            # buids the program my_tar
 ./make clean      # removes object files
 ./make fclean     # removes object files and binary
-./make re         # cleans and rebuilds the program```
+./make re         # cleans and rebuilds the program
+```
 
 
 ## Usage
@@ -28,8 +29,8 @@ It creates, lists, extracts, updates, and appends `.tar` archives using low-leve
 ./my_tar -tf archive.tar                        # List archive contents
 ./my_tar -xf archive.tar                        # Extract archive
 ./my_tar -uf archive.tar file1 [file2 ...]      # Update files (if newer)
-./my_tar -rf archive.tar file1 [file2 ...]
-```     # Append new files
+./my_tar -rf archive.tar file1 [file2 ...]      # Append new files
+```     
 
 
 ### The Core Team
